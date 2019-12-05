@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f0d6f0f-29d5-43f5-8f50-89f338cb76b9" name="Default Changelist" comment="" />
+    <list default="true" id="1f0d6f0f-29d5-43f5-8f50-89f338cb76b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/JsonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/JsonObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/json/JsonObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/json/JsonObject.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UYtjLlMA4o3WzHGP0EaRi4kWS9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -19,6 +30,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -36,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JsonObjectToJsonTest">
+  <component name="RunManager" selected="JUnit.BasicStudentTest">
     <configuration name="JsonBooleanTest.testToJsonTrue" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="exam_ucu" />
       <extension name="coverage">
@@ -49,6 +61,21 @@
       <option name="MAIN_CLASS_NAME" value="json.JsonBooleanTest" />
       <option name="METHOD_NAME" value="testToJsonTrue" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam_ucu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.BasicStudentTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicStudentTest" />
         <item itemvalue="JUnit.JsonObjectToJsonTest" />
         <item itemvalue="JUnit.JsonObjectAddFindProjectionTest" />
         <item itemvalue="JUnit.JsonNullTest" />
@@ -117,11 +145,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575545490023</updated>
-      <workItem from="1575545492949" duration="4066000" />
+      <workItem from="1575545492949" duration="5527000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,9 +1,6 @@
 package json;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Andrii_Rodionov on 1/3/2017.
@@ -16,16 +13,27 @@ public class JsonObject extends Json {
 
     @Override
     public String toJson() {
-        StringBuilder one = new StringBuilder("[");
-        for (JsonPair jsonPair: jsonPairs){
-            one.append(jsonPair.toString());
-        }
-        one.append("]");
-        return one.toString();
+        return getJsonLObjectBody();
     }
 
     public void add(JsonPair jsonPair) {
         jsonPairs.add(jsonPair);
+    }
+
+    private String getJsonLObjectBody() {
+        String jsonStr = "";
+        for (JsonPair jsonPair: jsonPairs) {
+
+            jsonStr += "'" + jsonPair.key + "': " + "'" + jsonPair.value.toString() + "'" + ",";
+
+            jsonStr += ", ";
+        }
+        StringBuilder jsonStr1 = new StringBuilder("{");
+        for (int i = 0; i < jsonStr.length() - 1; i++){
+            jsonStr1.append(jsonStr.charAt(i));
+        }
+        jsonStr1.append("}");
+        return jsonStr1.toString();
     }
 
     public Json find(String name) {
